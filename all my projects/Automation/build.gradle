@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+// BOM для управления версиями JUnit 5
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+
+    // Основные модули JUnit Jupiter
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    // Движок запуска JUnit Jupiter
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
+}
+
+test {
+    useJUnitPlatform()
+}
