@@ -27,3 +27,36 @@
         Email: yuraggmotoff@gmail.com
         GitHub: https://github.com/MotovYura2025
         Владивосток, UTC+10
+
+        ```java
+        public class YuriMotovProfile {
+        String name = "Мотов Юрий Юрьевич";
+        String city = "Владивосток";
+        String timezone = "UTC+10";
+        String email = "yuraggmotoff@gmail.com";
+        String github = "https://github.com/MotovYura2025";
+        List<String> skills = List.of(
+    "Java",
+    "Selenide",
+    "Selenium WebDriver",
+    "Page Object Model",
+    "JUnit",
+    "Maven",
+    "Git, GitHub"
+    );
+    String learningStatus = """
+    Сейчас прохожу курс по автоматизации тестирования на Stepik.
+    Овладеваю инструментами Selenium, Selenide и структурой Page Object Model.
+    Учусь писать автотесты, анализировать ошибки и совершенствоваться с поддержкой наставников и сообщества.
+    """;
+    String motivation = """
+    Ориентируюсь на удалённую работу с гибким графиком.
+    Готов быстро учиться, работать в команде и применять знания на практике.
+    Всегда на связи, готов к онлайн-коммуникации (Zoom, Teams, Slack).
+    """;
+
+    public void sayHello() {
+    System.out.println("Junior QA Automation Engineer (учусь и развиваюсь, открыт новым вызовам!)");
+    }
+    }
+
